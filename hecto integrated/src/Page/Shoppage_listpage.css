@@ -1,0 +1,13 @@
+.shoppage_listpage_col{
+    display: flex;
+    flex-direction: row;
+}
+
+.shoppage_listpage_col_fverticalbar{
+    width: 18%;
+    margin-left: 10%;
+}
+
+.shoppage_listpage_col_listview{
+    width: 72%;
+}

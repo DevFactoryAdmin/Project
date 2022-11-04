@@ -1,0 +1,28 @@
+.shoppage_gridpage_gridview{
+    display: flex;
+    margin-left: 10%;
+}
+
+.shoppage_gridpage_col_fverticalbar{
+    width: 20%;
+}
+
+.shoppage_gridpage_col_listview{
+    width: 7%;
+}
+
+
+/******************************************************/
+
+@media only screen and (max-width: 500px) {
+    .shoppage_filterhorizontal{
+        display: none;
+    }
+    .shoppage_gridpage_col_fverticalbar{
+        display: none;
+    }
+    .shoppage_gridpage_gridview{
+        /* justify-content:left; */
+        padding-left: 30px;
+    }
+}

@@ -1,0 +1,109 @@
+.adminlinegraph {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: none;
+    outline: none;
+    background-color: #F6F5FF;
+    /* margin: 30%; */
+    height: 300px;
+    width: 300px;
+    /* padding: 50px; */
+}
+
+.adminlinegraph_header {
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #7D8FB3;
+}
+
+.adminlinegraph_header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-weight: 600;
+}
+
+.adminlinegraph_header_label {
+    width: 50%;
+}
+
+.adminlinegraph_header_icon {
+    width: 50%;
+    text-align: end;
+}
+
+.adminlinegraph_price {
+    display: flex;
+    flex-direction: row;
+}
+
+.adminlinegraph_price_p1 {
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    line-height: 30px;
+    color: #7D8FB3;
+    font-weight: 800;
+}
+
+.adminlinegraph_price_p2 {
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    line-height: 30px;
+    color: #33D221;
+    font-weight: 800;
+    padding-left: 20px;
+}
+
+.adminlinegraph_graph_year {
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #7D8FB3;
+    width: 20%;
+}
+
+.adminlinegraph_graph {
+    display: contents;
+}
+
+.adminlinegraph_graph_bar1 {
+    border: none;
+    outline: none;
+    width: 60%;
+    background-color: #F46343;
+    margin-left: 20px;
+    height: 5px;
+    margin-top: auto;
+}
+
+.adminlinegraph_graph_row1,
+.adminlinegraph_graph_row2,
+.adminlinegraph_graph_row3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.adminlinegraph_graph_bar2 {
+    border: none;
+    outline: none;
+    width: 50%;
+    background-color: #33D221;
+    margin-left: 20px;
+    height: 5px;
+    margin-top: auto;
+}
+.adminlinegraph_graph_bar3{
+    border: none;
+    outline: none;
+    width: 30%;
+    background-color: rgb(134, 134, 219);
+    margin-left: 20px;
+    height: 5px;
+    margin-top: auto;
+}

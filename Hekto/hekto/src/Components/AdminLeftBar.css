@@ -1,0 +1,91 @@
+.AdminLeftBar_body {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    background-color: #F5F5F5;
+    /* align-items: center; */
+    /* background-color: #44bfcd;   */
+}
+
+.AdminLeftBar_top {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.AdminLeftBar_button button {
+    display: flex;
+    border: none;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px;
+    font-size: 35px;
+    background-color: #FFFFFF;
+    /* background-color: #bb3030; */
+
+}
+
+.AdminLeftBar_row2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.AdminLeftBar_button {
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 20px;
+
+}
+
+.AdminLeftBar_bottom {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-top: 250px;
+    padding-left: 15px;
+}
+
+.AdminLeftBar_bottom_image img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+
+
+
+}
+
+.AdminLeftBar_bottom_image {
+    padding-bottom: 15px;
+}
+
+.AdminLeftBar_button2 button {
+    display: flex;
+    border: none;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px;
+    font-size: 35px;
+    background-color: #FFFFFF;
+    border-color: aqua;
+    border-width: 2px;
+    /* background-color: #bb3030; */
+}
+
+.AdminLeftBar_button2 {
+    padding-bottom: 15px;
+}

@@ -1,0 +1,125 @@
+.orderlist-firstlbl{
+    
+}
+
+.Orderlist_outer-cover{
+    /* background-color: blueviolet; */
+    /* padding-left: 333px; */
+    padding-top: 40px ;
+    padding-bottom: 20px;
+ 
+}
+
+.orderlist-row-1{
+    width: 22%;
+    background-color: rgb(230, 231, 231);
+    padding-top: 53px;
+    padding-bottom: 113px;
+    /* padding-left: 122px; */
+    /* padding-right: 1111px; */
+    font-size: 22px;
+}
+
+.ordelist-box-cover-one{
+    text-align: center;
+    /* background-color: blue; */
+    width: 100%;
+    
+}
+
+
+.orderlist-col-2-lbl-pack{
+    display: flex;
+    flex-direction: column;
+}
+
+.orderlist-lbl-orderplacedon{
+    display: flex;
+    flex-direction: row;
+    /* width: 60%; */
+}
+
+.ordelist-76473{
+    padding-left: 90px;
+}
+
+.orderlist-326fwe6we6{
+
+    padding-right: 42px;
+    /* background-color: blue; */
+}
+
+.orderlist-326fwe6we6_lab2{
+
+}
+
+.orderlist-col-2-lbl-pack{
+    /* background-color: rgb(240, 240, 247); */
+    padding-left: 22px;
+    /* padding-right: 224px; */
+    width: 60%;
+    /* background-color: yellow; */
+   
+}
+
+.orderlist-row-2-img-lbl-cover{
+    display: flex;
+    flex-direction: row;
+    padding-left: 411px;
+    padding-bottom: 10px;
+}
+
+.orderlist-lbs-sh7667wgs{
+    padding-top: 33px;
+font-size: 18px;
+color: blue;
+}
+
+.orderrlist-hdgeudb7gs{
+    color: blue;
+}
+
+.orderlist-26b-rdehd{
+    color: blue;
+}
+
+/***************************************/
+
+@media only screen and (max-width: 500px) {
+    .Orderlist_outer-cover{
+        margin:20px 0;
+        padding: 0;
+    }
+    .orderlist-row-2-img-lbl-cover{
+        padding: 0;
+        margin-top: 20px;
+        /* background-color: yellow; */
+    }
+    .orderlist-col-1-img img{
+        max-width: 150px;
+    }
+    .orderlist-lbl-orderplacedon{
+        /* width: 50%; */
+    }
+    .orderlist-326fwe6we6{
+        padding: 0;
+    }
+    .orderlist-326fwe6we6_lab2{
+        padding-left: 20px;
+    }
+
+    .ordelist-76473{
+        padding: 0;
+        padding-left: 70px;
+    }
+
+
+    /* .orderlist-326fwe6we6{
+        padding: 0;
+        padding-top: 20px;
+        width: 10%;
+    }
+    .orderlist-326fwe6we6_lab2{
+        width: 0%;
+    } */
+}

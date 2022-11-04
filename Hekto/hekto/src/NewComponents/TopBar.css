@@ -1,0 +1,62 @@
+
+.topbar {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f7f8fa;
+    justify-content: space-between;
+    color: #4d5e80;
+    padding: 10px 5% 10px 5px;
+  }
+  .topbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  .topbar li {
+    list-style-type: none;
+    padding-right: 20px;
+  }
+  .topbar_whitecircle {
+    min-width: 50px;
+    max-width: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    background-color: white;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 30px;
+    color: #c3cad9;
+    font-size: 1.2rem;
+  }
+  .topbar_search {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: #c3cad9;
+  }
+  .topbar_search input {
+    border: none;
+    outline: none;
+  }
+  .topbar_user {
+    display: flex;
+    align-items: center;
+  }
+  .topbar_user label {
+    padding-left: 10px;
+  }
+  .topbar_user_icon {
+    color: #c3cad9;
+    font-size: 1.5rem;
+  }
+  .topbar_logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }

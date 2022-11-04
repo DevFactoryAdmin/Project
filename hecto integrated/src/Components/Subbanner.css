@@ -1,0 +1,20 @@
+.subbanner {
+  display: flex;
+  flex-direction: column;
+  background: #eeeffb;
+  padding: 100px 15%;
+}
+
+
+.subbanner_title label {
+  font-size: 1.8rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #101750;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+  .subbanner_title{
+    display: block;
+  }
+}

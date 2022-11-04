@@ -1,0 +1,41 @@
+.InBetweenBanner2 {
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    text-align: center;
+}
+
+.InBetweenBanner2_label1 {
+    font-size: 35px;
+    Font-family: "segoe ui";
+    letter-spacing: 0.015em;
+    color: #151875;
+    font-weight: bold;
+}
+
+.InBetweenBanner2_label2 {
+    font-size: 35px;
+    Font-family: "segoe ui";
+    letter-spacing: 0.015em;
+    color: #151875;
+    font-weight: bold;
+
+}
+
+.InBetweenBanner2_button button {
+    Font-family: "segoe ui";
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color: rgb(248, 21, 142);
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    Width: 173px;
+    height: 49px;
+
+}

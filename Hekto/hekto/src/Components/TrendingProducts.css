@@ -1,0 +1,164 @@
+.tp-r1 {
+  text-align: center;
+  font-size: 33px;
+  color: blue;
+  padding-bottom: 33px;
+}
+
+.tp-dollor {
+  display: flex;
+  flex-direction: row;
+}
+
+.tp-dp {
+  padding-right: 5px;
+}
+
+.tp-r3-c3-c177555 {
+  color: blue;
+}
+
+.tp-r2-cantlvr-chair-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 18%;
+  padding-left: 22px;
+  color: blue;
+}
+
+.tp-r2-cantlvr-chair-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 18%;
+  padding-left: 22px;
+  color: blue;
+}
+
+.tp-r2-cantlvr-chair-3 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 17%;
+  padding-left: 22px;
+  padding-right: 71px;
+  color: blue;
+}
+
+.tp-r2-cantlvr-chair-0 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(18, 155, 52);
+  width: 18%;
+  /* padding-left: 19px; */
+}
+
+.tp-r2-lbs {
+  padding-left: 44px;
+  /* color: rgb(189, 189, 189); */
+  /* padding-top: 11px; */
+}
+
+.tp-ash-lbl {
+  color: rgb(101, 101, 104);
+}
+
+.tp-r2-lbs {
+  background-color: rgb(255, 255, 255);
+  /* width: 15%; */
+  /* padding-top: 11px; */
+  /* padding-bottom: 11px; */
+}
+
+.tp-r2 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 199px;
+}
+
+.tp-r3-c1 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 22px;
+}
+
+.tp-r3-c2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.tp-r2-cantlvr-chair-11 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.tp-lbs-1 {
+  color: blue;
+  padding-left: 11px;
+  padding-top: 22px;
+  font-size: 22px;
+}
+
+.tp-shopnow {
+  color: red;
+  padding-left: 14px;
+  text-decoration: underline;
+}
+
+.tp-r3-clk {
+  padding-left: 88px;
+}
+
+.tp-r3-c1 {
+  background-color: rgb(255, 255, 255);
+  width: 22%;
+}
+
+.tp-r3-c2 {
+  background-color: rgb(235, 224, 224);
+  width: 24%;
+}
+
+.tp-r3-cover {
+  display: flex;
+  flex-direction: row;
+}
+
+.tp-r3-clk-2 {
+  padding-left: 22px;
+}
+
+.tp-r3-cover {
+  padding-left: 211px;
+  padding-top: 44px;
+}
+
+.tp-r3-lastchair-1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 11px;
+}
+
+.tp-r3-c3-c1 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 33px;
+}
+
+.tp-r3-5655 {
+  background-color: rgb(210, 223, 223);
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.tp-r3-c3-cover {
+  padding-left: 22px;
+  /* padding-bottom: 35px; */
+}
+
+.tp-r3-lastchair-1 {
+  text-decoration: underline;
+  color: blue;
+}

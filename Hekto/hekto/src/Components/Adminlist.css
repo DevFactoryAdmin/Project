@@ -1,0 +1,180 @@
+.adminlist{
+    background-color:white;
+    /* padding: 20px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.adminlist_header{
+    justify-content: center;
+    display: flex;
+}
+
+.adminlist_heading{
+    justify-content:space-between;
+    display: flex;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    width: 92%;
+    background-color: white;
+}
+
+.adminlist_heading label{
+    color: #74829F;
+    font-size: .7rem;
+    font-weight: 550;
+}
+
+.adminlist_middle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.adminlist_end{
+    justify-content: center;
+    display: flex;
+}
+
+.adminlist_end button{
+    padding: 7px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    color: #6C7A99;
+    font-weight: 550;
+    font-size: .7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.singleadminlist{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.singleadminlist_row{
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 10px; */
+    background-color: #FAFBFC;
+    width: 92%;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    /* background-color: #F6F5FF; */
+    
+
+}
+
+.singleadminlist_row_img{
+    display: flex;
+    align-items: center;
+}
+
+.singleadminlist_row img{
+    border-radius: 3px;
+    padding-left: 10px;
+    /* display: flex; */
+    /* border-bottom-right-radius: 3px; */
+}
+
+.singleadminlist_row label,span{
+    font-size: .7rem;
+    color: #74829F;
+    font-weight: 550;
+}
+
+.singleadminlist_row_img{
+    width: 10%;
+}
+
+.singleadminlist_row_producer{
+    width: 10%;
+}
+
+.singleadminlist_row_product{
+    width: 13%;
+}
+
+.singleadminlist_row_id{
+    width: 10%;
+}
+
+.singleadminlist_row_cat{
+    width: 8%;
+}
+
+.singleadminlist_row_link{
+    width: 15%;
+}
+
+.singleadminlist_row_cost{
+    width: 8%;
+}
+
+.singleadminlist_row_extra{
+    width: 8%;
+}
+
+.singleadminlist_row_price{
+    width: 8%;
+}
+
+.singleadminlist_row_priority{
+    width: 5%;
+}
+
+.singleadminlist_row_edit{
+    width: 5%;
+}
+
+.adminlist_heading_img{
+    width: 10%
+}
+
+.adminlist_heading_producer{
+    width: 10%;
+    padding-left: 10px;
+}
+
+.adminlist_heading_product{
+    width: 13%;
+}
+
+.adminlist_heading_id{
+    width: 10%;
+}
+
+.adminlist_heading_cat{
+    width: 8%;
+}
+
+.adminlist_heading_link{
+    width: 15%;
+    /* padding-left: 10px; */
+}
+
+.adminlist_heading_cost{
+    width: 8%;
+    
+}
+
+.adminlist_heading_extra{
+    width: 7%;
+}
+
+.adminlist_heading_price{
+    width: 7%;
+    /* padding-left: 10px; */
+}
+
+.adminlist_heading_priority{
+    width: 7%;
+}
+
+.adminlist_heading_edit{
+    width:4%;
+    padding-left: 10px;
+}
+
+

@@ -1,0 +1,61 @@
+.admintopbar_div1_icon img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.admintopbar_div4_profile img {
+    width: 30px;
+    height: 20px;
+}
+
+.admintopbar_div4_bell img {
+    width: 30px;
+    height: 20px;
+}
+
+.admintopbar_div_close img{
+    width: 30px;
+    height: 20px;
+
+}
+.admintopbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: #F2F0FF;
+    margin: 10%;
+}
+.admintopbar_div1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.admintopbar_div1_icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admintopbar_div2 li{
+    
+    list-style: none;
+    display: flex;
+    padding-right: 10px;
+}
+.admintopbar_div2 ul{
+    display: flex;
+    flex-direction: row;
+}
+.admintopbar_div4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.admintopbar_div3{
+    display: flex;
+    align-items: center;
+}

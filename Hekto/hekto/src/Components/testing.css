@@ -1,0 +1,324 @@
+.Checkout_cont {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 20px;
+    border-bottom: 1 px solid #E1E1E4;
+}
+
+.checkout_right_cont {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+
+.checkout_cont_product_label {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout_cont_product img {
+    height: 100px;
+    width: 100px;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.checkout_cont_product {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-right: 100px;
+}
+
+.checkout_left_calculate {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout_left_calculate input {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout_right_cont_button {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+
+}
+
+.checkout_right_cont_button_btn2 {
+    margin-left: 77%;
+    padding: 3px;
+}
+
+.checkout_right_cont_button_btn2 button {
+    /* display: flex; */
+
+    background: #FB2E86;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px;
+}
+
+.checkout_right_cont_button_btn1 button {
+    background: #FB2E86;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px;
+}
+
+.checkout_cont_product_label {
+    padding-left: 10px;
+
+}
+
+.checkout_cont_product_label_l1 {
+
+    Font-family: "segoe ui";
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.checkout_cont_product_label_l2,
+.checkout_cont_product_label_l3 {
+
+    font-size: 12px;
+    line-height: 14px;
+    Font-family: "segoe ui";
+    color: #A1A8C1;
+}
+
+.checkout_cont_price {
+
+    font-size: 14px;
+    line-height: 16px;
+    Font-family: "segoe ui";
+    color: #15245E;
+    justify-content: center;
+    width: 15%;
+    margin-right: 100px;
+}
+
+.checkout_cont_total {
+
+
+    font-size: 14px;
+    line-height: 16px;
+    Font-family: "segoe ui";
+    color: #15245E;
+    width: 15%;
+}
+
+.checkout_cont_quantity {
+    width: 10%;
+    margin-right: 100px;
+}
+
+.checkout_left {
+    margin-left: 50px;
+}
+
+.checkout_left_total_body {
+    background: #F4F4FC;
+    border-radius: 3px;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.checkout_left_total_header {
+
+
+    font-size: 20px;
+    line-height: 23px;
+    Font-family: "segoe ui";
+    color: #1D3178;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.checkout_left_total_body_row1 {
+    display: flex;
+    flex-direction: row;
+    Font-family: "segoe ui";
+    font-size: 20px;
+    line-height: 23px;
+    width: 100%;
+    color: #1D3178;
+    border-bottom: 1px solid solid #E8E6F1
+}
+
+.checkout_left_total_body_row1_l1 {
+    width: 50%;
+}
+
+.checkout_left_total_body_row1_l2 {
+    width: 50%;
+    text-align: end;
+}
+
+.checkout_left_total_body_row2 {
+    display: flex;
+    flex-direction: row;
+    Font-family: "segoe ui";
+    font-size: 20px;
+    line-height: 23px;
+    width: 100%;
+    color: #1D3178;
+    border-bottom: 1px solid solid #E8E6F1;
+
+}
+
+.checkout_left_total_body_row2_l1 {
+    width: 50%;
+
+
+}
+
+.checkout_left_total_body_row2_l2 {
+    width: 50%;
+    text-align: end;
+}
+
+.checkout_left_total_body_row3 label {
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #8A91AB;
+}
+
+.checkout_left_total_body_button button {
+    background: #19D16F;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.checkout_left_calculate_header {
+
+    font-size: 20px;
+    line-height: 23px;
+    Font-family: "segoe ui";
+    color: #1D3178;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.checkout_left_calculate_body {
+    display: flex;
+    flex-direction: column;
+    background: #F4F4FC;
+    border-radius: 3px;
+    padding: 20px;
+    display: grid;
+    gap: 30px;
+    width: 100%;
+}
+
+.checkout_left_calculate_body_l1 {
+    Font-family: "segoe ui";
+    font-size: 14px;
+    line-height: 16px;
+    color: #C5CBE3;
+    border-bottom: 1px solid #C5CBE3;
+}
+
+.checkout_left_calculate_body_l2 {
+    Font-family: "segoe ui";
+    font-size: 14px;
+    line-height: 16px;
+    color: #C5CBE3;
+    border-bottom: 1px solid #C5CBE3;
+}
+
+.checkout_left_calculate_body_l3 {
+    Font-family: "segoe ui";
+    font-size: 14px;
+    line-height: 16px;
+    color: #C5CBE3;
+    border-bottom: 1px solid #C5CBE3;
+}
+
+.checkout_left_calculate button {
+    background: #FB2E86;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px;
+}
+
+.checkout_right_header {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkout_right_header_h1 {
+
+    font-size: 20px;
+    line-height: 23px;
+    Font-family: "segoe ui";
+    color: #1D3178;
+    width: 60%;
+    font-weight: bold;
+}
+
+.checkout_right_header_h2 {
+
+    font-size: 20px;
+    line-height: 23px;
+    Font-family: "segoe ui";
+    color: #1D3178;
+    width: 15%;
+    margin-right: 16%;
+    font-weight: bold;
+}
+
+.checkout_right_header_h3 {
+
+    font-size: 20px;
+    line-height: 23px;
+    Font-family: "segoe ui";
+    color: #1D3178;
+    width: 15%;
+    font-weight: bold;
+}
+
+.checkout_right_header_h4 {
+
+
+    font-size: 20px;
+    line-height: 23px;
+    Font-family: "segoe ui";
+    color: #1D3178;
+    width: 15%;
+    font-weight: bold;
+}

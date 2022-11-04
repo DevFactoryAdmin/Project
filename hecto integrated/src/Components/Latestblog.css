@@ -1,0 +1,196 @@
+.Latestblog_row1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.Latestblog_row1 label {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #151875;
+    font-weight: bold;
+}
+
+.Latestblog_row2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+.Latestblog_row2_col1_text_l1,
+.Latestblog_row2_col1_text_l2,
+.Latestblog_row2_col1_text_l3,
+.Latestblog_row2_col1_text_l4 {
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+}
+
+.Latestblog_row2_col1_text_l1 {
+    display: flex;
+    flex-direction: row;
+    color: #151875;
+    font-size: .8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Latestblog_row2_col1_text_l2 {
+    color: #151875;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Latestblog_row2_col1_text_l3 {
+    color: #72718F;
+    font-size: .9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Latestblog_row2_col1_text_l4 button {
+    border: none;
+    color: #151875;
+    background-color: white;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.Latestblog_row2_col1_text_l4 button:hover {
+    text-decoration: underline;
+}
+
+.Latestblog_row2_col1 {
+    background-color: white;
+}
+
+.Latestblog_row2_col1_text_l3 label {
+    display: flex;
+    flex-direction: row;
+}
+
+.Latestblog_row2_col1_text_l1_p1 {
+    padding-right: 15px;
+}
+
+.Latestblog_row2_col2_text_l1,
+.Latestblog_row2_col2_text_l2,
+.Latestblog_row2_col2_text_l3,
+.Latestblog_row2_col2_text_l4 {
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+}
+
+.Latestblog_row2_col2_text_l1 {
+    display: flex;
+    flex-direction: row;
+    color: #151875;
+    font-size: .8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Latestblog_row2_col2_text_l2 {
+    color: #FB2E86;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Latestblog_row2_col2_text_l3 {
+    color: #72718F;
+    font-size: .9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Latestblog_row2_col2_text_l4 button {
+    border: none;
+    color: #151875;
+    background-color: white;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.Latestblog_row2_col2_text_l4 button:hover {
+    text-decoration: underline;
+}
+
+.Latestblog_row2_col2 {
+    background-color: white;
+}
+
+.Latestblog_row2_col2_text_l3 label {
+    display: flex;
+    flex-direction: row;
+}
+
+.Latestblog_row2_col2_text_l1_p1 {
+    padding-right: 15px;
+}
+
+.Latestblog_row2_col3_text_l1,
+.Latestblog_row2_col3_text_l2,
+.Latestblog_row2_col3_text_l3,
+.Latestblog_row2_col3_text_l4 {
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+}
+
+.Latestblog_row2_col3_text_l1 {
+    display: flex;
+    flex-direction: row;
+    color: #151875;
+    font-size: .8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Latestblog_row2_col3_text_l2 {
+    color: #151875;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Latestblog_row2_col3_text_l3 {
+    color: #72718F;
+    font-size: .9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Latestblog_row2_col3_text_l4 button {
+    border: none;
+    color: #151875;
+    background-color: white;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.Latestblog_row2_col3_text_l4 button:hover {
+    text-decoration: underline;
+}
+
+.Latestblog_row2_col3 {
+    background-color: white;
+}
+
+.Latestblog_row2_col3_text_l3 label {
+    display: flex;
+    flex-direction: row;
+}
+
+.Latestblog_row2_col3_text_l1_p1 {
+    padding-right: 15px;
+}
+@media only screen and (max-width: 500px) {
+    .Latestblog_row2{
+        display: contents;
+    }
+  
+  }

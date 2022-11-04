@@ -1,0 +1,60 @@
+.adminuseranalytics{
+     background-color: #F6F5FF;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+    /* margin: 30%; */
+    text-align: center;
+    padding: 30px;
+}
+.adminuseranalytics_header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.adminuseranalytics_header_left{
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #7D8FB3;
+    width: 80%;
+}
+.adminuseranalytics_header_right{
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #7D8FB3;
+}
+.adminuseranalytics_cont{
+    display: grid;
+    gap: 20px;
+    padding-top: 50px;
+}
+.adminuseranalytics_details{
+    display: flex;
+    flex-direction: column;
+    
+}
+.adminuseranalytics_details_col1{
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    color: #7D8FB3;
+    padding-bottom: 20px;
+}
+.adminuseranalytics_details_col2{
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: #C3CAD9;
+    padding-bottom: 20px;
+}

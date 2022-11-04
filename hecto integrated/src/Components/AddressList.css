@@ -1,0 +1,125 @@
+.AddressList{
+    justify-content: center;
+    display: flex;
+}
+.AddressList_body {
+    display: flex;
+    padding-top: 60px;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+}
+
+.AddressList_col0_button1 {
+    padding-bottom: 90px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.AddressList_col0_button2 {
+    padding-bottom: 80px;
+    padding-right: 30px;
+}
+
+.AddressList_col0_button3 {
+
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+.AddressList_col0_button1 button {
+    border: none;
+    border-radius: 30px;
+    width: 15px;
+    height: 15px;
+    background-color: #19D16F;
+}
+
+.AddressList_col0_button2 button {
+    border: none;
+    border-radius: 30px;
+    width: 15px;
+    height: 15px;
+
+}
+
+.AddressList_col0_button1 button,
+.AddressList_col0_button2 button,
+.AddressList_col0_button3 button {
+    border: none;
+    border-radius: 30px;
+}
+
+.AddressList_col1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+
+}
+
+.AddressList_heading {
+    padding-bottom: 70px;
+
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1D3178;
+    font-weight: bold;
+}
+
+.AddressList_address {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .7rem;
+    line-height: 12px;
+    font-weight: 500;
+}
+.AddressList_address1 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .7rem;
+    line-height: 12px;
+    font-weight: 500;
+}
+.AddressList_editbutton {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 85px;
+}
+
+.AddressList_editbutton button {
+    border: none;
+    background-color: #FFFFFF;
+
+}
+
+.AddressList_col2 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+
+}
+
+.AddressList_deletebutton {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 85px;
+}
+
+.AddressList_deletebutton button {
+    border: none;
+    background-color: #FFFFFF;
+}
+
+
+/******************************************************/
+
+/* @media only screen and (max-width: 500px) {
+    .AddressList_body{
+        width: 80%;
+        
+    }
+} */

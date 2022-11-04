@@ -1,0 +1,97 @@
+.Offerlist_images-cover{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+padding-left: 44px;
+}
+
+.Offerlist_outercover{
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 33px; */
+    padding-left: 33px;
+    
+}
+
+
+
+
+.offerlist-WhatShopexOffers{
+    /* background-color: rgb(25, 0, 255); */
+    color: blue;
+    font-size: 22px;
+    
+}
+
+.Offerlist-l1{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 44px;
+    color: blue;
+    font-size: 32px;
+}
+
+.Offerlist-hghhfgfgfhgf{  
+    background-color: rgb(217, 221, 212);
+    padding-left: 12px;
+    padding-right: 12px;
+    /* padding-bottom: 22px; */
+    padding-top: 22px; 
+}
+
+
+.Offerlist-ohyfffkgfkcgt-img-truck{
+    padding-top: 22px;
+    background-color: white;
+}
+
+.Offerlist-img-cover{
+    display: flex;
+    flex-direction: row;
+    /* background-color: blueviolet; */
+    justify-content: center;
+}
+
+.Offerlist-img-truck{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Offerlist-oc_img-lbl{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+
+.Offerlist-orderlisttttt{
+   
+    background-color:  rgb(217, 221, 212);
+    text-align: center;
+    align-items: center;
+    padding-bottom: 22px;
+    /* padding-left: 32px; */
+    /* padding-right: 22px; */
+}
+
+.Offerlist-img-hndgg{
+    font-size: 22px;
+    /* color: blue; */
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.Offerlist-under-lbl-img{
+    /* color: rgb(114, 114, 114); */
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 22;
+
+}
+
+

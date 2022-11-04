@@ -1,0 +1,61 @@
+.adminproductimagesummary{
+    padding: 50px;
+    background-color:  #F6F5FF;
+    border: none;
+    outline: none;
+    width: max-content;
+}
+.adminproductimagesummary_body_img img{
+    width: 150px;
+    height: 150px;
+    
+}
+.adminproductimagesummary_body_details_col2 img{
+    width: 20px;
+    height: 30px;
+}
+.adminproductimagesummary_header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #a4b4d3;
+    gap: 39%;
+}
+.adminproductimagesummary_body{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.adminproductimagesummary_body_details{
+    display: flex;
+    flex-direction: column;
+
+}
+.adminproductimagesummary_body_details_col1,.adminproductimagesummary_body_details_col2{
+     display: flex;
+     flex-direction: row;
+     padding-top: 20px;
+    
+}
+.adminproductimagesummary_body_details_col1_dollar{
+    padding-right: 20px;
+    color: #CED2DE;
+    font-size: 22px;
+}
+.adminproductimagesummary_body_details_col1_digit{
+    color: #7D8FB3;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.adminproductimagesummary_body_details_col2_digit{
+    padding-left: 20px;
+    font-size: 14px;
+    color: rgb(99, 211, 99);
+    padding-top: 10px;
+    font-weight: 800;
+}

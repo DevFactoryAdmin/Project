@@ -1,0 +1,36 @@
+@media screen and (max-width: 800px) {
+    body{ 
+    }
+    .footerrow {
+        flex-direction: column;
+    }
+    .footerrow .fr_col1,.footerrow .fr_col0{
+        width: 100%;
+    }
+    .footerrow .fr_col0{
+        text-align: center;
+    }
+    .row1{
+        flex-direction: column;
+    }
+    .logo img{ 
+        width: 50%;
+    }
+    .row1 .menu ul{
+        padding: 0;
+    }
+    .parallax{
+        perspective: 150px;
+    }
+    .parallax__layer--back{
+        transform: translateZ(-150px) scale(2);
+    }
+    iframe{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+    .framediv{
+        flex-direction: column;
+    }
+}

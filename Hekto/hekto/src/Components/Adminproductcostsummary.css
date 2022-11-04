@@ -1,0 +1,66 @@
+.Adminproductcostsummary-row-1{
+    display:  flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+
+.Adminproductcostsummary-row-1-gernrl{
+    /* justify-content: space-between; */
+    /* display: flex; */
+    padding-left: 22px;
+    color: blue;
+}
+
+
+.Adminproductcostsummary-row-1-threedottt{
+    justify-items: right;
+    /* background-color: brown; */
+    align-items: right;
+    padding-left: 112px;
+    padding-right: 11px;
+    
+}
+
+.adminprodct-smmrry-3456{
+    color: blue;
+    text-align: center;
+    padding-top: 11px;
+    font-size: 33px;
+}
+
+
+.adminprodct-smmrry-item-on-sale{
+    color: blue;
+    text-align: center;
+    padding-top: 2px; 
+    font-size: 0.7rem;
+}
+
+.adminprodct-smmrry-432{
+    color: blue;
+    text-align: center;
+    padding-top: 11px;
+    font-size: 33px;
+
+}
+
+
+.adminprodct-smmrry-sales-this-month{
+    color: blue;
+    text-align: center;
+    padding-top: 1px; 
+    padding-bottom: 22px;
+    font-size: 0.7rem;
+}
+
+
+.Adminproductcostsummary-out-cvr{
+    background-color: rgb(250, 250, 250);
+    width: 20%;
+/* width: 222px */
+
+}
+

@@ -1,0 +1,66 @@
+.adminlogstatistics {
+    border: none;
+    outline: none;
+    /* margin: 30%; */
+    background-color: #F6F5FF;
+    padding: 30px;
+
+}
+
+.adminlogstatistics_header {
+    display: flex;
+    flex-direction: row;
+    color: #7D8FB3;
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    width: 100%;
+}
+
+.adminlogstatistics_header_left {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+
+}
+
+.adminlogstatistics_header_left_icon {
+    padding-left: 20px;
+}
+
+.adminlogstatistics_header_cont {
+    padding-top: 50px;
+    display: grid;
+    gap: 15px;
+}
+
+.adminlogstatistics_list {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.adminlogstatistics_list_right {
+    display: flex;
+    flex-direction: row;
+    color: #7D8FB3;
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    padding-right: 5px;
+    gap: 20px;
+}
+
+.adminlogstatistics_list_country {
+    width: 50%;
+    color: #7D8FB3;
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}

@@ -1,0 +1,26 @@
+.adminproductreviewbar{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    background-color: #F6F5FF;
+    padding: 35px;
+    justify-content: stretch;
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #7D8FB3;
+}
+.adminproductreviewbar_func{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.adminproductreviewbar_center{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 14px;
+
+}

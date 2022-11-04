@@ -1,0 +1,95 @@
+.Mainbanner {
+    display: flex;
+    flex-direction: column;
+    background: #F2F0FF;
+}
+
+.Mainbanner_main {
+    display: flex;
+    flex-direction: row;
+}
+
+.Mainbanner_main_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -89px;
+    padding-top: 106px;
+}
+
+.Mainbanner_main_center_l1 {
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 28px;
+    color: #FB2E86;
+}
+
+.Mainbanner_main_center_l2,
+.Mainbanner_main_center_l3 {
+    Font-family: "segoe ui";
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 2.015px;
+    color: #000000;
+    font-weight: 800;
+    width: max-content;
+    padding-bottom: 10px;
+}
+
+.Mainbanner_main_center_l4,
+.Mainbanner_main_center_l5 {
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 20px;
+    color: #8A8FB9;
+    letter-spacing: 0.7px;
+}
+
+.Mainbanner_main_center_button button {
+    Font-family: "segoe ui";
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color: rgb(224, 42, 139);
+    outline: none;
+    border: none;
+    /* padding: 5px; */
+    margin-top: 20px;
+    width: 163px;
+    height: 50px;
+
+}
+
+.Mainbanner_main_right img {
+    width: 606px;
+    height: 589px;
+}
+
+.Mainbanner_bottom img {
+    width: min-content;
+    height: 14.6px;
+    padding-bottom: 57px;
+}
+
+.Mainbanner_bottom {
+    display: flex;
+    justify-content: center;
+}
+
+ 
+@media only screen and (max-width: 500px) {
+    .Mainbanner_main{
+        flex-direction: column;
+    }
+    .Mainbanner_main_center{
+        margin-left: 10px;
+    }
+    .Mainbanner_main_right,.Mainbanner_main_right_image1 img{
+        max-width: 100%;
+        height: auto;
+    }
+}

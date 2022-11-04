@@ -1,0 +1,72 @@
+.adminproductpricesummary{
+    background-color:#F6F5FF;
+    padding: 20px;
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7D8FB3;
+    border: none;
+    outline: none;
+}
+.adminproductpricesummary_header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.adminproductpricesummary_cont{
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    gap: 20px;
+}
+.adminproductpricesummary_list{
+    display: flex;
+    flex-direction: row;
+    /* gap: 60px; */
+    width: 100%;
+    align-items: center;
+}
+.adminproductpricesummary_list_price{
+    display: flex;
+    width: 10%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: white;
+    width: auto;
+    padding: 20px;
+}
+.adminproductpricesummary_list_no{
+    width: 20%;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: #FBB892;
+    text-align: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #EE7531;
+    font-size: x-small;
+    padding: 10px;
+}
+
+.adminproductpricesummary_list_product{
+    width: 15%;
+}
+.adminproductpricesummary_list_arrow{
+    width: 10%;
+}
+.adminproductpricesummary_header_right{
+    display: flex;
+    padding-left: 20%;
+}
+.adminproductpricesummary_list_price_border{
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    border: 2px solid  #E7E4F8;
+}

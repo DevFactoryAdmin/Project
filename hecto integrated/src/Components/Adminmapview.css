@@ -1,0 +1,28 @@
+.adminmapview{
+    display: flex;
+    flex-direction: column;
+    margin: 30%;
+    background-color: #F6F5FF;
+  
+}
+.adminmapview_header{
+    display: flex;
+    flex-direction: row;
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 16px;
+    padding-bottom: 50px;
+    color: #7D8FB3;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.adminmapview_header_label{
+    width: 90%;
+}
+.adminmapview_map img{
+    height: 300px;
+    width: 532px;
+}

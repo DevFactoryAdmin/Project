@@ -1,0 +1,49 @@
+.adminstatisticsgraph_row3 img{
+    width: 20px;
+    height: 20px;
+}
+.adminstatisticsgraph_header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 80px;
+    color: #A5A6F6;
+    font-size: small;
+    width: 100%;
+
+}
+.adminstatisticsgraph_header_label{
+    width: 50%;
+}
+.adminstatisticsgraph_header_icon{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
+.adminstatisticsgraph{
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* color: #7D8FB3; */
+    border: none;
+    outline: none;
+    background-color: #F6F5FF;
+    padding: 20px;
+    width: 25%;
+    height: auto;
+}
+.adminstatisticsgraph_row2,.adminstatisticsgraph_row3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.adminstatisticsgraph_row2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #4383B1;
+}
+.adminstatisticsgraph_row3{
+    color: #0FA916;
+    gap: 10px;
+}

@@ -1,0 +1,38 @@
+.loginpage_logsign{
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.loginpage_logsign_login{
+    width: 50%;
+    padding-left: 100px;
+}
+
+.loginpage_logsign_signup{
+    width: 50%;
+    padding-right: 100px;
+}
+
+
+/**************************************************/
+
+@media only screen and (max-width: 500px) {
+    .loginpage_logsign{
+        display: flex;
+        flex-direction: column;
+    }
+    .loginpage_logsign_login{
+        padding: 0;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+    }
+    .loginpage_logsign_signup{
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        width: 100%;
+        /* margin-left: 20px; */
+    }
+}

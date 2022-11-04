@@ -1,0 +1,60 @@
+.ProductDescription_body {
+    padding-left: 200px;
+    padding-right: 300px;
+    padding-top: 20px;
+    background-color: #F9F8FE;
+
+}
+
+.ProductDescription_r1 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.ProductDescription_r1_button button {
+    border: none;
+    color: #151875;
+    background-color: #F9F8FE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+.ProductDescription_r1_button button:hover {
+    text-decoration: underline
+}
+
+.ProductDescription_r2 {
+    line-height: 25px;
+
+}
+
+.ProductDescription_r2 h1,
+.ProductDescription_r3 h1 {
+    display: flex;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #151875;
+}
+
+.ProductDescription_r2 label {
+    color: #A9ACC6;
+    font-size: .8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ProductDescription_r3 ul {
+    list-style-image: url("./Images/ProductDescription_arrow.png");
+    padding-left: 25px;
+
+}
+
+.ProductDescription_r3 li {
+    color: #A9ACC6;
+    font-size: .8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+    padding-left: 5px;
+
+}

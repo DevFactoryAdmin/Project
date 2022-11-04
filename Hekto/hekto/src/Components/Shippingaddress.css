@@ -1,0 +1,99 @@
+.shippingaddress {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    gap: 20px;
+    align-items: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #C1C8E1;
+}
+
+.shippingaddress_body {
+    display: grid;
+    gap: 20px;
+    /* border-bottom: 2px solid #8C9BD1; */
+    width: 50%;
+}
+
+.shippingaddress_body_name {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.shippingaddress_body_place {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.shippingaddress_header {
+
+
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #1D3178;
+    /* padding-right: 63px; */
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.shippingaddress_body_name_first,
+.shippingaddress_body_name_last,
+.shippingaddress_body_place_country,
+.shippingaddress_body_place_postalcode {
+    width: 50%;
+}
+
+.shippingaddress_body_name_first,
+.shippingaddress_body_name_last,
+.shippingaddress_body_address,
+.shippingaddress_body_apartment,
+.shippingaddress_body_city,
+.shippingaddress_body_place_country,
+.shippingaddress_body_place_postalcode {
+    border-bottom: 2px solid #8C9BD1;
+    padding-bottom: 10px;
+}
+
+.shippingaddress_button button {
+    background: #FB2E86;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    Font-family: "segoe ui";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 15px;
+    color: #FFFFFF;
+    width: 182px;
+    height: 44.06px;
+
+}
+
+.shippingaddress_button {
+    padding-top: 20px;
+}
+
+.shippingaddress_body label {
+    padding: 10px;
+}

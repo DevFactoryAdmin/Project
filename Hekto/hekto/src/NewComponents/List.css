@@ -1,0 +1,36 @@
+.list_whitecircle {
+  min-width: 50px;
+  max-width: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+  background-color: white;
+  min-height: 50px;
+  max-height: 50px;
+  border-radius: 30px;
+  color: #c3cad9;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f8fa;
+    padding: 20px 0;
+}
+.list_row{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+.list_row button{
+    background-color: white;
+    border-color:#c3cad9;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}

@@ -1,0 +1,84 @@
+.gv-outer-row-2-main {
+  /* margin-left: 4%; */
+}
+
+.Gridview_mobileview {
+  /* display: none; */
+  padding-bottom: 20px;
+  justify-content: center;
+  }
+
+.gv-outer-cover-r1,
+.gv-outer-cover-r2,
+.gv-outer-cover-r3 {
+  display: flex;
+  flex-direction: row;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.gv-r1-blue-dlor {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  /* font-weight: 500; */
+  padding-left: 64px;
+  padding-right: 11px;
+}
+
+.gv-r1-pink-dollr {
+  color: brown;
+  font-size: 0.9rem;
+}
+
+.gv-r1-mooncolor {
+  padding-left: 64px;
+}
+
+.gv-r1-chair-1 {
+  background-color: rgb(255, 255, 255);
+}
+
+.gv-r1-chr-1-pic {
+  background-color: rgb(231, 247, 239);
+  padding-left: 4px;
+  padding-right: 5px;
+  margin-right: 22px;
+  margin-bottom: 22px;
+  margin-top: 39px;
+}
+
+.gv-r1-vel-ethit-eusmod {
+  text-align: center;
+  justify-content: center;
+  padding-left: 44px;
+}
+
+.Gridview_mobileview_inner {
+  display: flex;
+  background-color: aqua;
+  /* justify-content: space-between; */
+  /* flex-direction: row; */
+  width: 100%;
+}
+
+/*****************************/
+
+@media only screen and (max-width: 500px) {
+  .gv-outer-cover-r1 {
+    display: table;
+    box-sizing: border-box;
+  }
+  .gv-outer-cover-r2,
+  .gv-outer-cover-r3 {
+    display: none;
+  }
+  /* .Gridview_mobileview {
+    display: block;
+  } */
+
+  /* .gv-outer-cover-r2,
+.gv-outer-cover-r3{
+  display: none;
+} */
+}
